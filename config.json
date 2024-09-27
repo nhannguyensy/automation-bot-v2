@@ -1,5 +1,5 @@
 {
-    "slack_token": "xoxb-xx-xx-xxxxxxx",
+    "slack_token": "xoxb-xx-xx-yyyyy",
     "tasks": {
         "deploy": {
             "command": "deploy_service",
