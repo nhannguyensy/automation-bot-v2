@@ -1,0 +1,27 @@
+{
+    "slack_token": "xoxb-7515019552608-7750144814119-uKnhYkqQS4VaxoPhuBE1xWuv",
+    "tasks": {
+        "deploy": {
+            "command": "deploy_service",
+            "url": "http://10.1.1.35:2104/alert_call_supper?list_phone=84937686468&speak_text=hello%20just%20test",
+            "method": "GET"
+        },
+        "restart": {
+            "command": "restart_service",
+             "url": "http://10.1.1.35:2104/alert_call_supper?list_phone=84937686468&speak_text=hello%20just%20test",
+             "method": "GET"
+        },
+        "status": {
+            "command": "check_status",
+             "url": "http://10.1.1.35:2104/alert_call_supper?list_phone=84937686468&speak_text=hello%20just%20test",
+             "method": "GET"
+        },
+        "deploy appops-sftp": {
+            "command": "deploy appops-sftp-service",
+            "url":"https://jenkins.paysmart.com.vn/job/appops-sftp-2-minio/job/sandbox/build",
+            "method": "POST",
+            "user": "nhan.nguyen1",
+            "token": "11df0945e74abf15629473bac1bb9537a8"
+        }
+    }
+}

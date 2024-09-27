@@ -1,0 +1,18 @@
+      i have more a requirement like this: tức là câu lệnh động hơn ở phần service : example when type deploy <service-name> <env> 
+      it will run call api methode post tới url jenkins kiểu như vầy :
+      https://jenkins.paysmart.com.vn/job/<service-name>/job/<env>/build
+
+      certainly basic authen still the same , do you understand me ? if you understand please help to update config file and code 
+
+i have requirement like this: ie more dynamic command in service part : example when type deploy <service-name> <env>
+it will run call api methode post to jenkins url like this :
+https://jenkins.paysmart.com.vn/job/<service-name>/job/<env>/build
+certainly basic authen still the same , do you understand me ?
+please move https://jenkins.paysmart.com.vn/job/<service-name>/job/<env>/build into config file 
+       "deploy appops-sftp": {
+            "command": "deploy appops-sftp-service",
+            "url":"https://jenkins.paysmart.com.vn/job/appops-sftp-2-minio/job/sandbox/build",
+            "method": "POST",
+            "user": "nhan_nguyen",
+            "token": "11df0945e74abf15629473bac1bb9537a8"
+        }
