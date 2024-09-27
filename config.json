@@ -19,7 +19,7 @@
     },
     "jenkins": {
         "user": "nhan_nguyen",
-        "token": "11df0945e74abf15629473bac1bb9537a8",
-        "url_format": "https://jenkins.paysmart.com.vn/job/{service-name}/job/{env}/build"
+        "token": "xxxxxxx",
+        "url_format": "https://jenkins.domain.com/job/{service-name}/job/{env}/build"
     }
 }
