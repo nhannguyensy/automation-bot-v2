@@ -1,5 +1,5 @@
 {
-    "slack_token": "xoxb-xx-xx-xxxxx",
+    "slack_token": "xoxb-7515019552608-7750144814119-uKnhYkqQS4VaxoPhuBE1xWuv",
     "tasks": {
         "deploy": {
             "command": "deploy_service",
@@ -19,7 +19,7 @@
     },
     "jenkins": {
         "user": "nhan_nguyen",
-        "token": "xxxxxxx",
+        "token": "11df0945e74abf15629473bac1bb9537a8",
         "url_format": "https://jenkins.domain.com/job/{service-name}/job/{env}/build"
     }
 }
