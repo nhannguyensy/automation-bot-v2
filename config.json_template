@@ -1,0 +1,25 @@
+{
+    "slack_token": "xoxb-xxxxx",
+    "tasks": {
+        "deploy": {
+            "command": "deploy_services",
+            "url": "http://10.1.1.35:2104/alert_call_supper?list_phone=84937686468&speak_text=hello%20just%20test",
+            "method": "GET"
+        },
+        "restart": {
+            "command": "restart_service",
+             "url": "http://10.1.1.35:2104/alert_call_supper?list_phone=84937686468&speak_text=hello%20just%20test",
+             "method": "GET"
+        },
+        "status": {
+            "command": "check_status",
+             "url": "http://10.1.1.35:2104/alert_call_supper?list_phone=84937686468&speak_text=hello%20just%20test",
+             "method": "GET"
+        }
+    },
+    "jenkins": {
+        "user": "nhan_nguyen",
+        "token": "xxxxx",
+        "url_format": "https://jenkins.domain.com/job/{service-name}/job/{env}/build"
+    }
+}
