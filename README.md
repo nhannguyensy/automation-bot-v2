@@ -7,7 +7,7 @@ A lightweight Slack operations bot written in Go. It turns predefined Slack mess
 
 This project demonstrates a practical approach to reducing repetitive operational work: engineers can run approved actions from Slack without remembering endpoint URLs or navigating Jenkins jobs.
 
-> **Project status:** proof of concept. Review the [security and production-readiness notes](#security-and-production-readiness) before using it outside a lab or trusted internal environment.
+> **Project status:** Originally built and used internally in a production environment to automate operational tasks through Slack. This public repository is a sanitized version of the project, with company-specific configuration and credentials removed.
 
 ## What it does
 
